@@ -1,0 +1,25 @@
+{
+  "name": "k-nearest-neighbor",
+  "version": "0.0.1",
+  "description": "Implementation of k-nearest-neighbor machine learning algorithm in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilellaj/k-nearest-neighbor.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "machine",
+    "learning\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[-"
+  ],
+  "author": "Jonathan Vilella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vilellaj/k-nearest-neighbor/issues"
+  },
+  "homepage": "https://github.com/vilellaj/k-nearest-neighbor#readme"
+}
