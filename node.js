@@ -5,22 +5,30 @@ class Node {
       }
     }
   
-    measureDistances(area_range_obj, rooms_range_obj) {
-      var rooms_range = rooms_range_obj.max - rooms_range_obj.min;
-      var area_range  = area_range_obj.max  - area_range_obj.min;
+    measureDistances(ranges) {
+      var newRanges = {};
+      
+      
+      for(let key in ranges) {
+        newRanges[key] = ranges[key].max - ranges[key].min;
+      }
 
       for (var i in this.neighbors)
       {
+          var deltas = {};
+
           /* Just shortcut syntax */
           var neighbor = this.neighbors[i];
-
-          var delta_rooms = neighbor.rooms - this.rooms;
-          delta_rooms = (delta_rooms ) / rooms_range;
-
-          var delta_area  = neighbor.area  - this.area;
-          delta_area = (delta_area ) / area_range;
-
-          neighbor.distance = Math.sqrt( delta_rooms*delta_rooms + delta_area*delta_area );
+          var deltaSum = 0;
+          for(var key in newRanges) {
+            deltas[key] = neighbor[key] - this[key];
+            deltas[key] = (deltas[key]) / newRanges[key];
+            
+            deltaSum += deltas[key] * deltas[key];
+          }
+          
+          
+          neighbor.distance = Math.sqrt( deltaSum );
       }
     }
   

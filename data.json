@@ -1,21 +1,196 @@
 [{
-  "rooms": 2,
-  "area": 100,
-  "type": "flat"
+  "size": 1,
+  "legs": 4,
+  "color": 1,
+  "type": "feline"
 },{
-  "rooms": 3,
-  "area": 200,
-  "type": "flat"
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
 },{
-  "rooms": 3,
-  "area": 900,
-  "type": "house"
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
 },{
-  "rooms": 2,
-  "area": 1100,
-  "type": "house"
+  "size": 1,
+  "legs": 4,
+  "color": 3,
+  "type": "feline"
 },{
-  "rooms": 1,
-  "area": 300,
-  "type": "house"
+  "size": 1,
+  "legs": 4,
+  "color": 2,
+  "type": "canine"
+},{
+  "size": 1,
+  "legs": 4,
+  "color": 2,
+  "type": "canine"
+},{
+  "size": 2,
+  "legs": 4,
+  "color": 2,
+  "type": "canine"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
+},{
+  "size": 3,
+  "legs": 4,
+  "color": 1,
+  "type": "canine"
+},{
+  "size": 6,
+  "legs": 4,
+  "color": 1,
+  "type": "equine"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 1,
+  "type": "ape"
+},{
+  "size": 1,
+  "legs": 4,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 2,
+  "legs": 4,
+  "color": 1,
+  "type": "canine"
+},{
+  "size": 3,
+  "legs": 4,
+  "color": 1,
+  "type": "canine"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 3,
+  "type": "feline"
+},{
+  "size": 6,
+  "legs": 4,
+  "color": 2,
+  "type": "equine"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
+},{
+  "size": 6,
+  "legs": 4,
+  "color": 2,
+  "type": "equine"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 2,
+  "legs": 4,
+  "color": 1,
+  "type": "canine"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 4,
+  "color": 2,
+  "type": "canine"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "canine"
+},{
+  "size": 1,
+  "legs": 2,
+  "color": 1,
+  "type": "feline"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 1,
+  "type": "ape"
+},{
+  "size": 3,
+  "legs": 2,
+  "color": 2,
+  "type": "ape"
+},{
+  "size": 6,
+  "legs": 4,
+  "color": 2,
+  "type": "equine"
+},{
+  "size": 6,
+  "legs": 4,
+  "color": 2,
+  "type": "equine"
+},{
+  "size": 6,
+  "legs": 4,
+  "color": 2,
+  "type": "equine"
 }]

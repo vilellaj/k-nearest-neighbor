@@ -2,34 +2,32 @@ const Node = require('./node');
 
 class NodeList {
   constructor(k) {
-    this.nodes = [];
     this.k = k;
+    this.nodes = [];
+    this.ranges = {};
   }
   
   add(node) {
     this.nodes.push(node);
   }
   
-  normalizeData() {
-    this.areas = {min: 1000000, max: 0};
-    this.rooms = {min: 1000000, max: 0};
+  normalizeData() {    
+    let reference = this.nodes[0] || {};
     
-    for (var i in this.nodes) {
-        if (this.nodes[i].rooms < this.rooms.min) {
-            this.rooms.min = this.nodes[i].rooms;
-        }
-
-        if (this.nodes[i].rooms > this.rooms.max) {
-            this.rooms.max = this.nodes[i].rooms;
-        }
-
-        if (this.nodes[i].area < this.areas.min) {
-            this.areas.min = this.nodes[i].area;
-        }
-
-        if (this.nodes[i].area > this.areas.max) {
-            this.areas.max = this.nodes[i].area;
-        }
+    for(var key in reference) {
+      this.ranges[key] = {min: 1000000, max: 0};             
+    }
+    
+    for (let i in this.nodes) {
+        for (let key in this.ranges) {
+          if (this.nodes[i][key] < this.ranges[key].min) {
+              this.ranges[key].min = this.nodes[i][key];
+          }
+          
+          if (this.nodes[i][key] > this.ranges[key].max) {
+              this.ranges[key].max = this.nodes[i][key];
+          }
+        }  
     }
   }
   
@@ -58,7 +56,7 @@ class NodeList {
             }
 
             /* Measure distances */
-            this.nodes[i].measureDistances(this.areas, this.rooms);
+            this.nodes[i].measureDistances(this.ranges);
 
             /* Sort by distance */
             this.nodes[i].sortByDistance();
