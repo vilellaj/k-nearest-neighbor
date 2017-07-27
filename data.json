@@ -1,0 +1,21 @@
+[{
+  "rooms": 2,
+  "area": 100,
+  "type": "flat"
+},{
+  "rooms": 3,
+  "area": 200,
+  "type": "flat"
+},{
+  "rooms": 3,
+  "area": 900,
+  "type": "house"
+},{
+  "rooms": 2,
+  "area": 1100,
+  "type": "house"
+},{
+  "rooms": 1,
+  "area": 300,
+  "type": "house"
+}]
